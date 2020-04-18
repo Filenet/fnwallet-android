@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f5f5f7"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:text="@string/transaction_volume"
+                    android:textColor="#A5ACBC"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/fndetailvalue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:layout_marginTop="@dimen/dp_12"
+                    android:layout_marginBottom="@dimen/dp_12"
+                    android:text="00.00"
+                    android:textColor="#2B2C35"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.75dp"
+                    android:background="@color/common_line_color" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_12"
+                    android:text="@string/fakuanfang"
+                    android:textColor="#A5ACBC"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/fndetailaddressFrom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="@dimen/dp_12"
+                    android:text="发款方"
+                    android:textColor="#2B2C35"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.75dp"
+                    android:background="@color/common_line_color" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/shoukuanfang"
+                    android:textColor="#A5ACBC"
+
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/fndetailaddressTo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="@dimen/dp_12"
+                    android:text="收款方"
+                    android:textColor="#2B2C35"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.75dp"
+                    android:background="@color/common_line_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/jiaoyihao"
+                    android:textColor="#A5ACBC"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/fntrdetailhashNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="@dimen/dp_12"
+                    android:clickable="true"
+                    android:text="交易号"
+                    android:textColor="#2B2C35"
+                    android:textSize="13sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.75dp"
+                    android:background="@color/common_line_color" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/qukuaihao"
+                    android:textColor="#A5ACBC"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/fntrdetailblockNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="@dimen/dp_12"
+                    android:clickable="true"
+                    android:text="区块号"
+                    android:textColor="#2B2C35"
+                    android:textSize="13sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.75dp"
+                    android:background="@color/common_line_color" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/time"
+                    android:textColor="#A5ACBC"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/fnTrDetailBlockTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="@dimen/dp_12"
+                    android:clickable="true"
+                    android:text="时间"
+                    android:textColor="#2B2C35"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.75dp"
+                    android:background="@color/common_line_color" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/note"
+                    android:textColor="#A5ACBC"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/fnTrNote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="@dimen/dp_12"
+                    android:clickable="true"
+                    android:textColor="#2B2C35"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.75dp"
+                    android:background="@color/common_line_color" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

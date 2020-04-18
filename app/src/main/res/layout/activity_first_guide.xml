@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleIndicator="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.FirstGuideActivity">
+
+
+    <io.filenet.wallet.view.NoScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <io.filenet.wallet.view.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="@dimen/dp_56"
+        CircleIndicator:ci_background="@color/color_E0E0E0"
+        CircleIndicator:ci_gravity="center"
+        CircleIndicator:ci_margin="8dp"
+        CircleIndicator:ci_mode="outside"
+        CircleIndicator:ci_radius="4dp"
+        CircleIndicator:ci_selected_background="@color/colorPrimary"
+        CircleIndicator:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

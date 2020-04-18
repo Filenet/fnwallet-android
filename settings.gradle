@@ -1,0 +1,2 @@
+include ':app', ':zxingsupport'
+rootProject.name='git_fnwallet'

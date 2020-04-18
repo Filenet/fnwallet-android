@@ -1,0 +1,481 @@
+<resources>
+    <string name="app_name">Filenet Wallet</string>
+    <string name="exit_tips">再按一次退出程序</string>
+
+    <string name="homepage_tab_text_news">兑换</string>
+    <string name="homepage_tab_text_mall">资产</string>
+    <string name="homepage_tab_text_mine">我的</string>
+    <string name="mine_title">我</string>
+    <string name="property_drawer_qrcode_scanner">扫一扫</string>
+    <string name="property_drawer_create_wallet">创建钱包</string>
+    <string name="property_drawer_load_wallet">导入钱包</string>
+
+    <string name="start_1">Filenet分布式存储赛道</string>
+    <string name="start_2">领跑者</string>
+    <string name="create_wallet_name_hint">钱包名称</string>
+    <string name="create_wallet_pwd_hint">密码</string>
+    <string name="create_wallet_pwd_again_hint">重复密码</string>
+    <string name="create_wallet_pwd_reminder_info_hint">密码提示信息(可不填)</string>
+    <string name="create_wallet_agreement_reminder">我已经仔细阅读并同意</string>
+    <string name="create_wallet_agreement">服务及隐私条款</string>
+    <string name="create_wallet_name_repeat_tips">钱包名称重复</string>
+    <string name="create_wallet_name_input_tips">请输入钱包名称</string>
+    <string name="create_wallet_pwd_input_tips">密码不能为空</string>
+    <string name="create_wallet_pwd_confirm_input_tips">密码不一致，请重新输入</string>
+    <string name="create_wallet_pwd_lenght_input_tips" translatable="false">密码长度至少为8位</string>
+    <string name="create_wallet_mnemeric" translatable="false">助记词长度为12个单词</string>
+    <string name="create_wallet_alert1">* 密码用于隐私保护和交易授权，强度非常重要</string>
+    <string name="create_wallet_alert2">* FilenetWallet  不存储密码，也无法帮您找回，请务必牢记</string>
+
+    <string name="property_total_assets">总资产</string>
+    <string name="property_approximate">≈</string>
+
+    <string name="mine_wallet_manage">钱包管理</string>
+    <string name="mine_trade_record">交易记录</string>
+    <string name="mine_msg_center">消息中心</string>
+    <string name="mine_contracts">联系人</string>
+    <string name="prom_setting">保证金设置</string>
+    <string name="currency_setting">货币单位</string>
+    <string name="language_setting">语言设置</string>
+    <string name="contact_us">联系我们</string>
+    <string name="aboutwallet">关于Fn钱包</string>
+    <string name="mine_personal_center">个人中心</string>
+    <string name="mine_help_center">帮助中心</string>
+    <string name="mine_about_us">关于我们</string>
+    <string name="discovery_application">应用</string>
+    <string name="discovery_news">文章</string>
+
+    <string name="add_new_property_title">添加新资产</string>
+    <string name="search_toolbar_cancel">取消</string>
+    <string name="search_hint">搜索  Token  名称或合约地址</string>
+    <string name="search_ico_empty_hint1">没找匹配的结果？</string>
+    <string name="search_ico_empty_hint2">试试在页面底部提交新token</string>
+    <string name="search_upload_token">向我们提交新Token</string>
+
+    <string name="gathering_qrcode_title">收款码</string>
+    <string name="gathering_qrcode_share">分享</string>
+    <string name="gathering_qrcode_gathering_money">收款金额</string>
+    <string name="gathering_qrcode_copy_gathering_address">复制</string>
+    <string name="gathering_qrcode_copy_success">已复制</string>
+
+    <string name="contact_no_data">暂时没有联系人</string>
+
+    <string name="eth_transfer">ETH转入</string>
+
+    <string name="etc_transfer_title">ETH转出</string>
+    <string name="etc_transfer_address">收款人钱包地址</string>
+    <string name="etc_transfer_from_address">付款人钱包地址</string>
+    <string name="etc_transfer_money">转账金额</string>
+    <string name="etc2fn_transfer_money">请输入数量</string>
+    <string name="etc2fn_transfer_num">兑换数量</string>
+    <string name="etc_transfer_remark">备注</string>
+    <string name="etc_transfer_gas_cost_reference" translatable="false">矿工费用参考</string>
+    <string name="etc_transfer_gas_cost">矿工费用</string>
+    <string name="etc_fntransfer_gas_totalcost">总花费</string>
+    <string name="etc_transfer_gas_price">自定义 Gas Price</string>
+    <string name="etc_transfer_gas">自定义 Gas</string>
+    <string name="etc_transfer_advanced_setting_help">如何设置参数?</string>
+    <string name="etc_transfer_advanced_setting">高级选项</string>
+    <string name="etc_transfer_hex_data">十六进制数据</string>
+    <string name="etc_transfer_next">下一步</string>
+    <string name="etc_transfer_gas_slow">慢</string>
+    <string name="etc_transfer_gas_quick">快</string>
+    <string name="etc_transfer_ether_unit">&#160;ether</string>
+    <string name="etc_fntransfer_ether_unit_total">总金额：&#160;</string>
+
+    <string name="property_detail_title">ETH</string>
+    <string name="property_detail_transfer">转账</string>
+    <string name="property_detail_gathering">收款</string>
+
+    <string name="wallet_manager_create_wallet">创建钱包</string>
+    <string name="wallet_manager_load_wallet">导入钱包</string>
+    <string name="wallet_manager_title">管理钱包</string>
+
+    <string name="news_center_all_read">全部已读</string>
+    <string name="news_center_title">消息中心</string>
+
+    <string name="system_setting_title">系统设置</string>
+    <string name="system_setting_language">多语言</string>
+    <string name="system_setting_currency">货币单位</string>
+    <string name="system_setting_web3">web3设置</string>
+    <string name="system_setting_gesture">收拾密码</string>
+
+    <string name="language_setting_chinese">简体中文</string>
+    <string name="language_setting_English">English</string>
+    <string name="language_setting_save">保存</string>
+
+    <string name="currency_unit_setting_cny">CNY</string>
+    <string name="currency_unit_setting_usd">USD</string>
+
+    <string name="web3_setting_wallet_service_url">WALLET SERVICE URL</string>
+    <string name="web3_setting_wallet_service_url_hint">https://web3.token.im</string>
+    <string name="web3_setting_reset_url">设置为默认的URL</string>
+    <string name="trading_record_title">ETH账单</string>
+    <string name="switch_wallet_title">切换账户</string>
+
+    <string name="wallet_backup_tips1">强烈建议您立即备份助记词，以确保您的钱包安全</string>
+    <string name="wallet_backup_tips2">备份钱包：导出「助记词」并抄写到安全的地方，千万不要保存到网络上，然后尝试转入、转出小额资产开始使用.</string>
+    <string name="wallet_backup_backup_btn">备份钱包</string>
+    <string name="wallet_backup_backup_help">查看备份详细教程</string>
+
+    <string name="input_pwd_dialog_tip">请输入密码</string>
+    <string name="input_pwd_delete_tip">请慎重，此操作无法撤销</string>
+    <string name="input_pwd_dialog_confirm">确认</string>
+
+    <string name="mnemonic_backup_title">备份助记词</string>
+    <string name="mnemonic_backup_tips1">抄写下你的钱包助记词</string>
+    <string name="mnemonic_backup_tips2">助记词用于恢复钱包或重置钱包密码，将它准确的抄写到纸上，并存放在只有你知道的安全的地方。</string>
+
+    <string name="mnemonic_backup_alert_tips">如果有人获取你的助记词将直接获取你的资产！请抄写下助记词并存放在安全的地方。</string>
+    <string name="mnemonic_backup_alert_btn">知道了</string>
+    <string name="mnemonic_backup_alert_title">请勿截图</string>
+
+    <string name="verify_backup_tip1">确认你的钱包助记词</string>
+    <string name="verify_backup_tip2">请按顺序点击助记词，以确认你的备份助记词正确。</string>
+    <string name="verify_backup_failed">备份失败，请检查你的助记词</string>
+
+    <string name="load_wallet_title">导入钱包</string>
+    <string name="load_wallet_btn">开始导入</string>
+    <string name="load_wallet_indicator_mnemonic">助记词</string>
+    <string name="load_wallet_indicator_keystore">keystore</string>
+    <string name="load_wallet_indicator_official">官方钱包</string>
+    <string name="load_wallet_indicator_private_key">私钥</string>
+    <string name="load_wallet_indicator_observer">观察</string>
+
+    <string name="load_wallet_by_mnemonic_hint">请输入您的助记词，以空格分割，支持m/44\'/60\'/0\'/0/0格式。</string>
+    <string name="load_wallet_by_mnemonic_input_tip">请检查您的助记词</string>
+    <string name="load_wallet_by_mnemonic_standard">m/44\'/60\'/0\'/0/0</string>
+    <string name="load_wallet_by_mnemonic_standard_ledger">m/44\'/60\'/0\'/0</string>
+    <string name="load_wallet_by_mnemonic_standard_custom">m/44\'/60\'/1\'/0/0</string>
+    <string name="load_wallet_by_mnemonic_standard_jaxx_option">m/44\'/60\'/0\'/0/0 Jaxx,Metamask(ETH)</string>
+    <string name="load_wallet_by_mnemonic_standard_ledger_option">m/44\'/60\'/0\'/0 Ledger (ETH)</string>
+    <string name="load_wallet_by_mnemonic_standard_custom_option">m/44\'/60\'/1\'/0/0 自定义路径</string>
+    <string name="load_wallet_by_mnemonic_help">什么是助记词？</string>
+    <string name="load_wallet_already_exist">钱包已存在</string>
+
+    <string name="load_wallet_by_official_wallet_keystore_hint">keystore 文本内容</string>
+    <string name="load_wallet_by_official_wallet_keystore_tip">直接复制粘贴以太坊官方钱包keystore文件内容至输入框。或者通过生成keystore内容的二维码，扫描录入。</string>
+    <string name="load_wallet_by_official_wallet_help">什么是keystore？</string>
+    <string name="load_wallet_by_official_wallet_keystore_input_tip">keystore文件无效</string>
+
+    <string name="load_wallet_by_private_key_input_tip">无效的私钥</string>
+    <string name="load_wallet_by_private_key_hint">明文私钥</string>
+    <string name="load_wallet_by_private_key_help">什么是私钥？</string>
+
+    <string name="load_wallet_by_observer_tip">观察钱包不需要导入私钥，只导入钱包地址，进行日常查看账户、交易和接受通知。大额资金的私钥建议使用冷钱包或硬件钱包管理，避免泄漏被盗。</string>
+    <string name="load_wallet_by_observer_hint">扫码或输入钱包地址</string>
+    <string name="load_wallet_by_observer_attention">注意：观察钱包发送交易时需要冷钱包配合签名。你可以使用另一台闲置手机，开飞行模式作为冷钱包，导入钱包私钥，配合离线签名。</string>
+
+    <string name="wallet_detail_wallet_name">钱包名</string>
+    <string name="wallet_detail_modify_pwd">修改密码</string>
+    <string name="wallet_detail_derive_private_key">导出私钥</string>
+    <string name="wallet_detail_derive_keystore">导出keystore</string>
+    <string name="wallet_detail_derive_nmic">导出助记词</string>
+    <string name="mine_system_setting">系统设置</string>
+    <string name="wallet_detail_delete_wallet">删除钱包</string>
+    <string name="wallet_delete_success">钱包删除成功</string>
+    <string name="wallet_detail_save_success">保存成功</string>
+    <string name="wallet_detail_wrong_pwd">密码错误</string>
+
+    <string name="modify_password_title">更改密码</string>
+    <string name="modify_password_old_pwd">当前密码</string>
+    <string name="modify_password_new_pwd">新密码</string>
+    <string name="modify_password_old_pwd_again">重复新密码</string>
+    <string name="modify_password_tip">忘记密码？导入助记词或私钥可重置密码。</string>
+    <string name="modify_password_import">马上导入</string>
+    <string name="modify_password_complete">完成</string>
+    <string name="modify_password_pwd_alert1">请输入原密码</string>
+    <string name="modify_password_alert2">请输入新密码</string>
+    <string name="modify_password_alert3">请再次输入新密码</string>
+    <string name="modify_password_alert4">原密码错误</string>
+    <string name="modify_password_alert5">新密码两次输入不一致</string>
+    <string name="modify_password_success">修改密码成功</string>
+
+    <string name="derive_private_key_alert">安全警告：私钥未经加密，导出存在风险，建议使用助记词和keystore进行备份</string>
+    <string name="derive_private_key_copy_btn">复制</string>
+    <string name="derive_private_key_already_copy_btn">已复制</string>
+
+    <string name="derive_keystore_title">导出keystore文件</string>
+    <string name="derive_keystore_keystore">keystore 文件</string>
+    <string name="derive_keystore_qrcode">二维码</string>
+    <string name="derive_keystore_tip_title">离线保存</string>
+    <string name="derive_keystore_tip">请复制粘贴Keystore文件到安全、离线的地方保存。切勿保存至邮箱、记事本、网盘、聊天工具等，非常危险</string>
+    <string name="derive_keystore_tip2">请勿通过网络工具传输 Keystore文件，一旦被黑客获取将造成不可晚会的资产损失。建议离线设备通过扫二维码方式传输。</string>
+    <string name="derive_keystore_tip3">如需在线保存，则建议使用安全等级更高的 1Password 等密码保管软件保存 Keystore。</string>
+    <string name="derive_keystore_tip4">二维码禁止保存、截图、以及拍照、仅供用户在安全环境下直接扫描来方便的导入钱包。</string>
+    <string name="derive_keystore_tip5">请在确保四周无人及无摄像头的情况下使用。二维码一旦被人获取将造成不可挽回的资产损失。</string>
+    <string name="derive_keystore_tip_title2">请勿使用网络传输</string>
+    <string name="derive_keystore_tip_title3">密码保险箱保存</string>
+    <string name="derive_keystore_tip_title4">仅供直接扫描</string>
+    <string name="derive_keystore_tip_title5">在安全环境下使用</string>
+    <string name="derive_keystore_copy">复制 Keystore</string>
+
+    <string name="deriving_wallet_tip">导出钱包中…</string>
+    <string name="loading_wallet_tip">导入钱包中…</string>
+    <string name="deleting_wallet_tip">删除钱包中…</string>
+    <string name="creating_wallet_tip">创建钱包中…</string>
+    <string name="saving_wallet_tip">保存钱包中…</string>
+
+
+    <string name="fncoin">Fn</string>
+    <string name="ethcoin">ETH</string>
+    <string name="none">---,---</string>
+
+    <string name="out">转出</string>
+    <string name="in">转入</string>
+    <string name="bills">账单</string>
+
+    <string name="about_line">Fn Wallet是由filenet推出的在线支付服务工具，它为您的数字货币提供安全，专业，快捷的服务和简单的在线支付服务。</string>
+
+    <string name="welcome">欢迎使用Filenet钱包</string>
+    <string name="copyright">Filenet.io @ 2018 - 2020</string>
+
+    <string name="contact_web">官方网站</string>
+    <string name="contact_email">邮箱</string>
+    <string name="contact_telegram">传真</string>
+    <string name="contact_twitter">推特</string>
+    <string name="contact_facebook">脸书</string>
+
+    <string name="website">filenet.io</string>
+    <string name="emailadress">contact@filenet.io</string>
+    <string name="telegramnum">t.me/filenetcommunity</string>
+    <string name="twitter">&#064;Filenetglobal</string>
+    <string name="facebook">RC Filenet</string>
+
+
+    <string name="slide1">Fn专属钱包</string>
+    <string name="slide11">您的Fn资产管家，提供一站式Fn token\n服务，具备语言国际化特点</string>
+    <string name="slide2">私钥自持，安全无忧</string>
+    <string name="slide22">私钥多重加密存储于APP，不以任何\n形式存储于服务器；应用PBKDF2、\nSHA-512等算法加密技术</string>
+    <string name="slide3">代币兑换，安全快速</string>
+    <string name="slide33">智能合约，即时交易，操作方便，\n高效透明</string>
+
+    <string name="tv_skip">跳过>></string>
+    <string name="later_backup">稍后备份</string>
+
+    <string name="fn_attantion1">1.由于ETH实时变动，汇率仅做参考，以实际兑换结果为准。</string>
+    <string name="fn_attantion2">2.Fn具有冻结期，分5个月平均释放。</string>
+
+    <string name="exchange_alert">&#160;&#160;2018年9月25-10月15号为公开兑换交易保证金时间，之后永久关闭兑换交易，在此之前请不要转入ETH</string>
+    <string name="alert">提示</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="createAlert">当前无钱包，请创建钱包后操作</string>
+    <string name="fnAlert">主链暂未上线，请期待……</string>
+
+    <string name="billsdetail">交易记录</string>
+    <string name="fnbillsdetail" translatable="false">Fn兑换账单</string>
+
+    <string name="update">请到官网更新最新版本</string>
+    <string name="freeze" translatable="false">冻结保证金</string>
+    <string name="unfreeze" translatable="false">解冻保证金</string>
+    <string name="chang_form_add" translatable="false">付款地址</string>
+    <string name="buy_eth_amunt" translatable="false">买入ETH数量</string>
+    <string name="change_fn_amunt" translatable="false">兑换Fn数量</string>
+    <string name="reference_exchange" translatable="false">参考汇率：</string>
+    <string name="available_balance" translatable="false">可用余额</string>
+    <string name="available_balance_eth" translatable="false">(可用余额:0 ETH)</string>
+    <string name="check_updates" translatable="false">下拉检查更新</string>
+    <string name="contact_us_title" translatable="false">联系我们</string>
+
+    <string name="success" translatable="false">成功</string>
+    <string name="tobeconfirmed" translatable="false">待确认</string>
+    <string name="failed" translatable="false">失败</string>
+
+    <string name="netfailed">暂无账单信息~</string>
+
+
+    <string name="release" translatable="false">已释放</string>
+    <string name="unrelease" translatable="false">未释放</string>
+    
+    <string name="fn_transfer">FN转入</string>
+
+    <string name="updateNote">发现新版本，是否更新？</string>
+    <string name="mustUpdate">当前版本过低，请更新使用！</string>
+    <string name="fn_send">Fn转出</string>
+    <string name="qingshurushoukuandizhi">请输入收款地址</string>
+    <string name="shoukuandizhicuowu">收款地址错误</string>
+    <string name="zhuanzhangbunengwei0">转账金额不能为0</string>
+    <string name="shoukuandizhibunengshiziji">收款钱包地址不能是自己</string>
+    <string name="qingshurushoukuanrenqianbaodizhi">请输入收款人钱包地址</string>
+    <string name="qianbaodizhiyouwu">钱包地址格式有误</string>
+    <string name="qingshuruzhuanzhangjine">请输入转账金额</string>
+    <string name="yuebuzu">余额不足</string>
+    <string name="zhuanzhangjinebunengwei0">转账金额不能为0</string>
+    <string name="shoukuanqianbaodizhibunengshiziji">收款钱包地址不能是自己</string>
+    <string name="qianbaodizhiweikong">钱包地址为空</string>
+    <string name="mimazhengque">密码正确</string>
+    <string name="fnduihuanzhangdan">Fn兑换账单</string>
+    <string name="fakuanfang">发款方</string>
+    <string name="shoukuanfang">收款方</string>
+    <string name="jiaoyihao">交易号</string>
+    <string name="qukuaihao">区块高度</string>
+    <string name="zhuanzhangshenqingyitijiao">区块打包确认中</string>
+    <string name="qingshaohouchakanzhangdan">请稍后查看账单</string>
+    <string name="zanshimeiyouzhangdan">暂无账单~</string>
+    <string name="keyong">可用</string>
+    <string name="dongjie">冻结</string>
+    <string name="daoruqianbaochenggong">导入钱包成功</string>
+    <string name="chuangjianqianbaochenggong">创建钱包成功</string>
+    <string name="version">版本号</string>
+    <string name="fn_exchange_record">Fn账单</string>
+    <string name="transaction_record">交易记录</string>
+    <string name="mining_record">挖矿收益</string>
+    <string name="wallet_privatekey_exits">钱包私钥已存在</string>
+    <string name="network_error">网络错误，请重试.</string>
+    <string name="to_setting">去授权</string>
+    <string name="allow_storage_access">获取存储权限失败，需要到设置页面手动授权</string>
+    <string name="apply_camera_access">获取相机权限失败，需要到设置页面手动授权</string>
+    <string name="string_apply">授权</string>
+
+    <string name="apply_common_access">获取%s权限失败，需要到设置页面手动授权</string>
+    <string name="change_wallet_name">修改钱包名称</string>
+    <string name="input_wallet_name">请输入钱包名称</string>
+    <string name="change_password_success">更改密码成功</string>
+    <string name="setting_new_password_please_remember_new_password">钱包已存在，是否设置为新密码\n(请牢记钱包新密码)</string>
+    <string name="right_mnemonic">助记词正确</string>
+    <string name="notes">请注意:</string>
+    <string name="create_wallet_notes">密码应由您自己保管。此应用程序不存储密码，无法为您检索，请记住。</string>
+    <string name="create_wallet">创建钱包</string>
+    <string name="exchange_record1">兑换记录</string>
+    <string name="time">时间</string>
+    <string name="revenue_record">挖矿记录</string>
+    <string name="parent_hash">父哈希</string>
+    <string name="block_hash">区块哈希</string>
+    <string name="transaction_number">交易数</string>
+    <string name="mnemonic_tips" translatable="false">提示</string>
+    <string name="please_back_up">请先备份钱包助记词</string>
+    <string name="key_store">keystore 文本内容</string>
+    <string name="keystore_tips">直接复制粘贴以太坊钱包keystore文件内容至输入框</string>
+    <string name="key_store_content_error">keystore文件错误,或者密码错误</string>
+    <string name="identity_password_tips">请输入你的密码，以确认你的身份</string>
+    <string name="property_portfolio">资产明细</string>
+    <string name="data_from_aicoin">(数据来自AICoin)</string>
+    <string name="select_import_tips">请根据您的钱包选择导入方法</string>
+    <string name="private_key_import">私钥导入</string>
+    <string name="mnemonic_import">助记词导入</string>
+    <string name="keep_in_a_safe_place_tips">助记词用于恢复钱包和重置密码，非常重要！ 一定要把它放在安全的地方！</string>
+    <string name="mnemonic_tips_2">确保您的环境安全且私密。请将助记词准确地抄写到纸上,并存放在只有你知道的安全位置。</string>
+    <string name="mnemnic_empty">清空</string>
+    <string name="assets">资产</string>
+    <string name="transaction_volume">交易量</string>
+    <string name="translation_detail">交易详情</string>
+    <string name="fees">矿工费</string>
+    <string name="keystore_import">Key store 导入</string>
+    <string name="mnemonic_error">助记词错误</string>
+    <string name="import_error">导入失败</string>
+    <string name="picture_path_is_empty">图片路径为空</string>
+    <string name="derive_keystore_tips">不要截图，请检查周围，以防止入侵者和相机</string>
+    <string name="note_notes_on_transfer">转账说明</string>
+    <string name="transfer_has_been_submitted">区块打包确认中，请稍候查看</string>
+    <string name="failure_to_submit_transfer">区块打包失败</string>
+
+    <string name="not_super_node_error">此地址不是超级节点</string>
+
+    <string name="not_contract_duration_error">合约期限错误</string>
+
+    <string name="receivables">收款</string>
+    <string name="transfer">转账</string>
+    <string name="contract">合约</string>
+    <string name="Receive">接收</string>   <!--注意：1.由于ETH实时变动，汇率仅做参考，以实际兑换结果为准-->
+
+    <string name="not_open_yet">暂未开放</string>
+    <string name="manager">管理</string>
+    <string name="expired_height">过期高度</string>
+    <string name="proxy_hash">代理哈希</string>
+    <string name="super_node_address_empty">超级节点地址不能为空</string>
+    <string name="note">留言</string>
+    <string name="receive_hash">接收哈希</string>
+
+    <string name="approved">已同意</string>
+    <string name="refused">已拒绝</string>
+    <string name="approve">同意</string>
+    <string name="refuse">拒绝</string>
+
+    <string name="receive_detail">通知详情</string>
+    <string name="contract_apply_submit1">合约生成成功</string>
+    <string name="contract_apply_submit2">请稍后查看合约账单</string>
+
+    <string name="failed_contract_submit">区块打包失败</string>
+    <string name="contract_bill">合约账单</string>
+    <string name="select_lock_Time">请选择锁定时间</string>
+    <string name="super_node_address">超级节点地址:</string>
+    <string name="transfer_amount">转出金额:</string>
+    <string name="please_select_lock_time">选择锁定时间:</string>
+    <string name="receive_notice">接收通知</string>
+    <string name="Please_input_super_node_addr">请输入超级节点地址</string>
+    <string name="six_month">6个月</string>
+    <string name="twelve_month">12个月</string>
+    <string name="contract_detail">合约详情</string>
+    <string name="contract_duration">合约期限</string>
+
+    <string name="handle_clicked">区块正在打包中，请稍后再次查看详情</string>
+    <string name="already_handle_contract">您已处理合约</string>
+    <string name="check_detail_later">请稍后查看详情</string>
+    <string name="super_node_error">超级节点地址输入错误</string>
+    <string name="no_receive">暂无通知</string>
+    <string name="mining_address">挖矿地址</string>
+    
+    <string name="vote">投票</string>
+    <string name="vote_address">投票地址:</string>
+    <string name="Please_input_vote_address">请输入投票地址</string>
+    <string name="Please_enter_the_transfer_amount">请输入转出金额</string>
+    <string name="lock_period">锁定期限</string>
+    <string name="lock_period_a_month">1个月</string>
+    <string name="lock_period_add">（259200 Expiredblock）</string>
+    <string name="what_is_vote">&#160;什么是投票？</string>
+    <string name="vote_address_is_empty">投票地址不能为空</string>
+    <string name="vote_address_is_error">投票地址输入错误</string>
+    <string name="vote_address_is_not_exist">投票地址不存在</string>
+    <string name="Emoji_input_is_not_supported">不支持输入emoji表情符号！</string>
+    <string name="voting_address_has_not_applied_for_the_qualification_of_packaging_node_please_confirm_and_vote_again">此投票地址尚未申请打包节点资格，请确认后重新投票！</string>
+    <string name="you_have_voted_for_the_other_packaging_node_address">您已投票给其他打包节点地址！</string>
+    <string name="your_application_for_packaging_node_qualification_has_not_been_reviewed_please_review_and_then_vote">您尚有打包节点资格申请未审核，请审核后再发起投票！</string>
+    <string name="you_have_already_voted_you_cannot_apply_for_the_packaging_node">您已投过票，不能申请打包节点！</string>
+    <string name="apply_for_packaging_node_must_mortgage_1_FN">申请打包节点必须抵押1FN！</string>
+    <string name="this_address_is_super_node_address_cannot_participate_in_the_packaging_node_vote">此地址为超级节点地址，无法参与打包节点投票！</string>
+    <string name="your_address_is_the_super_node_address_you_cannot_participate_in_the_packaging_node_vote">您的地址为超级节点地址，无法参与打包节点投票！</string>
+    <string name="voting_for_this_month_has_ended_Please_start_voting_on_the_1st_of_next_month">本月投票已截止，请在下个月1号起开始投票！</string>
+    <string name="failed_vote_submit">区块打包失败</string>
+    <string name="apply_for_voting_submit1">区块打包确认中</string>
+    <string name="apply_for_voting_submit2">请稍后查看投票记录</string>
+    <string name="vote_records">投票记录</string>
+    <string name="all_records">全部记录</string>
+    <string name="to_review_record">待审核记录</string>
+    <string name="returned_record">已退回记录</string>
+    <string name="locked_record">已锁定记录</string>
+    <string name="record_details">记录详情</string>
+    <string name="please_review_record">请审核记录</string>
+    <string name="batch_review">批量审核</string>
+    <string name="no_operation">您没有可操作的申请</string>
+    <string name="remind_operation">此操作将一次审核所有的申请，请谨慎操作！</string>
+    <string name="all_rejected">全部拒绝</string>
+    <string name="all_agreed">全部同意</string>
+    <string name="vote_hash">投票哈希</string>
+    <string name="throw_out_address">投出地址</string>
+    <string name="input_address">投入地址</string>
+    <string name="vote_height">投票高度</string>
+    <string name="refund_height">退票高度</string>
+    <string name="agreed_process">已同意申请</string>
+    <string name="apply_for_voting_process">您已处理投票申请</string>
+
+    <string name="what_vote">什么是投票？</string>
+    <string name="how_vote">如何投票？</string>
+
+    <string name="what_vote_explain1">投票是指用户用投票方式参与竞选打包节点活动的行为。</string>
+    <string name="what_vote_explain2">成为打包节点需最少获得40万FN票数，并且在排名前105名，打包节点获得的票数越高获得打包资格的概率越大。</string>
+    <string name="what_vote_explain3">所有打包节点将获得挖矿总数的10%作为记账收益，即区块打包收益。</string>
+    <string name="what_vote_explain4">投票需要抵押代币，期限为1个自然月，到期自动原路返回。</string>
+    <string name="what_vote_explain5">每月1号统计上月投票票数，确定哪些节点成功竞选为打包节点。</string>
+    <string name="how_vote_explain1">进入filenet钱包内的投票入口即可对竞选的打包节点投票。</string>
+    <string name="how_vote_explain2">投票采用票选制，每一个FN为一票。</string>
+    <string name="how_vote_explain3">投票地址填写参与竞选的打包节点地址。</string>
+    <string name="how_vote_explain4">用户投票后需经过审核同意，投票方能有效。</string>
+    <string name="how_vote_explain5">投票期限为1个月，到期退回后需重新投票。</string>
+
+    <string name="number_of_contracts_you_have">自有合约票数</string>
+    <string name="number_of_contracts_held_by_the_agent">代理合约票数</string>
+    <string name="all_number_of_contracts">总合约票数</string>
+    <string name="startlang">English</string>
+</resources>

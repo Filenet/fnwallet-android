@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f8f8fa"
+        android:focusableInTouchMode="true"
+        android:paddingLeft="@dimen/dp_56"
+        android:paddingRight="@dimen/dp_56">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="@string/verify_backup_tip1"
+                android:textColor="@color/discovery_application_text_color"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp"
+                android:text="@string/verify_backup_tip2"
+                android:textColor="@color/property_ico_worth_color"
+                android:textSize="13sp" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_mnemonic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="-8dp"
+                android:minHeight="128dp"
+                android:overScrollMode="never" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_selected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="-8dp"
+                android:background="@color/white"
+                android:minHeight="128dp"
+                android:overScrollMode="never"
+                android:paddingBottom="@dimen/dp_10" />
+
+
+            <TextView
+                android:id="@+id/btn_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:paddingLeft="14dp"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:text="@string/mnemnic_empty"
+                android:textColor="#FC355D"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/btn_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_common_btn"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:text="@string/input_pwd_dialog_confirm"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

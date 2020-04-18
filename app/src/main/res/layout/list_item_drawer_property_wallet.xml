@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lly_wallet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_f8f8fa"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_ico_logo"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/fn_logo" />
+
+        <TextView
+            android:id="@+id/tv_wallet_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/civ_ico_logo"
+            android:layout_toRightOf="@+id/civ_ico_logo"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:minLines="1"
+            android:text="MyFirstWallet"
+            android:textColor="@color/property_ico_name_color"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_16"
+            android:text="@string/super_node_address"
+            android:textColor="@color/color_333333"
+            android:textSize="@dimen/sp_14" />
+
+        <EditText
+            android:id="@+id/edtSuperNode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ellipsize="end"
+            android:enabled="false"
+            android:hint="@string/Please_input_super_node_addr"
+            android:maxLines="3"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingBottom="@dimen/dp_16"
+            android:textColor="@color/color_333333"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/ivQrScanner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:enabled="false"
+            android:padding="@dimen/dp_12"
+            android:src="@mipmap/ic_black_scan" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_12"
+        android:layout_marginBottom="@dimen/dp_12"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_16">
+
+        <TextView
+            android:id="@+id/fnCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/available_balance"
+            android:textColor="@color/color_333333"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_16"
+            android:text="@string/transfer_amount"
+            android:textColor="@color/color_333333"
+            android:textSize="@dimen/sp_14" />
+
+        <EditText
+            android:id="@+id/edtTransferCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/qingshuruzhuanzhangjine"
+            android:inputType="number|numberDecimal"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingBottom="@dimen/dp_16"
+            android:textColor="@color/color_333333"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dp_12"
+            android:text="FN" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_16"
+            android:text="@string/please_select_lock_time"
+            android:textColor="@color/color_333333"
+            android:textSize="@dimen/sp_14" />
+
+        <LinearLayout
+            android:id="@+id/llLockTimeExpand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvLockTime"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:padding="@dimen/dp_16"
+                android:textColor="@color/color_333333" />
+
+            <ImageView
+                android:id="@+id/tvLockTimeBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:enabled="false"
+                android:padding="@dimen/dp_12"
+                android:src="@mipmap/ic_unexpand"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSelectTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_F8F8F8" />
+
+        <TextView
+            android:id="@+id/btnSixMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dp_16"
+            android:text="@string/six_month"
+            android:textColor="@color/color_333333" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_F8F8F8" />
+
+        <TextView
+            android:id="@+id/btnTwelveMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dp_16"
+            android:text="@string/twelve_month"
+            android:textColor="@color/color_333333" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_16"
+            android:text="@string/note"
+            android:textColor="@color/color_333333"
+            android:textSize="@dimen/sp_14" />
+
+        <EditText
+            android:id="@+id/edtContent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:maxEms="200"
+            android:maxLines="3"
+            android:padding="@dimen/dp_16"
+            android:textColor="@color/color_333333"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="@dimen/dp_16"
+        android:background="@drawable/btn_approve"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/confirm"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

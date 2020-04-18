@@ -1,0 +1,38 @@
+package io.filenet.wallet.utils;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+
+public class SPLanguage {
+    private final String SP_NAME = "language_setting";
+    private final String TAG_LANGUAGE = "language_select";
+    private static volatile SPLanguage instance;
+
+    private final SharedPreferences mSharedPreferences;
+
+    public SPLanguage(Context context) {
+        mSharedPreferences = context.getSharedPreferences(SP_NAME, Context.MODE_PRIVATE);
+    }
+
+
+    public void saveLanguage(int select) {
+        SharedPreferences.Editor edit = mSharedPreferences.edit();
+        edit.putInt(TAG_LANGUAGE, select);
+        edit.commit();
+    }
+
+    public int getSelectLanguage() {
+        return mSharedPreferences.getInt(TAG_LANGUAGE, 0);
+    }
+
+    public static SPLanguage getInstance(Context context) {
+        if (instance == null) {
+            synchronized (SPLanguage.class) {
+                if (instance == null) {
+                    instance = new SPLanguage(context);
+                }
+            }
+        }
+        return instance;
+    }
+}

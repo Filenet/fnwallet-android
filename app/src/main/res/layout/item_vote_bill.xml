@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:clickable="true"
+    android:gravity="center"
+    android:background="@color/color_FFFFFF"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgFromOrTo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:src="@mipmap/bills_out" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/dp_16">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvVoteId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/tvVoteTime"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:textColor="@color/color_333333"
+                android:textSize="13sp"
+                tools:text="XXXXXXXXX" />
+
+            <TextView
+                android:id="@+id/tvVoteTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvVoteId"
+
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#999999"
+                android:textSize="13sp"
+                tools:text="XXXXXXXXX" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvVoteValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:textColor="#FF3636"
+                android:textSize="13sp"
+                tools:text="XXXXXXX" />
+
+            <TextView
+                android:id="@+id/tvVoteStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13sp"
+                tools:text="XXXXXXXXXXXXXX" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

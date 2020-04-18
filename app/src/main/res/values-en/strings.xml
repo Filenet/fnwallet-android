@@ -1,0 +1,472 @@
+<resources>
+    <string name="app_name">Filenet Wallet</string>
+    <string name="exit_tips">If you press again, you will be quit the program.</string>
+
+    <string name="homepage_tab_text_news">Exchange</string>
+    <string name="homepage_tab_text_mall">Assets</string>
+    <string name="homepage_tab_text_mine">Profile</string>
+    <string name="mine_title">me</string>
+    <string name="property_drawer_qrcode_scanner">Scan</string>
+    <string name="property_drawer_create_wallet">create a new wallet</string>
+    <string name="property_drawer_load_wallet">import a wallet</string>
+
+    <string name="start_1">The Global Leader </string>
+    <string name="start_2">of Distributed Storage</string>
+    <string name="create_wallet_name_hint">Wallet Name</string>
+    <string name="create_wallet_pwd_hint">Password</string>
+    <string name="create_wallet_pwd_again_hint">Repeat Password</string>
+    <string name="create_wallet_pwd_reminder_info_hint">Password prompt information (optional)</string>
+    <string name="create_wallet_agreement_reminder">Agreed On</string>
+    <string name="create_wallet_agreement">Service and Privacy Policy</string>
+    <string name="create_wallet_name_repeat_tips">Wallet name has been repeated!</string>
+    <string name="create_wallet_name_input_tips">Please input the name of the wallet</string>
+    <string name="create_wallet_pwd_input_tips">Password must not be empty</string>
+    <string name="create_wallet_pwd_confirm_input_tips">The passwords are inconsistent, please re-enter</string>
+    <string name="create_wallet_alert1">* Passwords are used for privacy protection and transaction authorization, and strength is very important</string>
+    <string name="create_wallet_alert2">* Filenet Wallet does not store passwords and cannot be retrieved for you. Please keep in mind</string>
+
+    <string name="property_total_assets">Total Assets</string>
+    <string name="property_approximate">≈</string>
+
+    <string name="mine_wallet_manage">Manage Wallet</string>
+    <string name="mine_trade_record">Transaction Record</string>
+    <string name="mine_msg_center">Message Center</string>
+    <string name="mine_contracts">Contact</string>
+    <string name="prom_setting">promit Setting</string>
+    <string name="currency_setting">Currency Setting</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="contact_us">Contract Us</string>
+    <string name="aboutwallet">About Fn Wallet</string>
+    <string name="mine_system_setting">System Settings</string>
+    <string name="wallet_detail_derive_nmic">Export Mnemonic</string>
+    <string name="mine_personal_center">Personal Center</string>
+    <string name="mine_help_center">Help Center</string>
+    <string name="mine_about_us">About Us</string>
+
+    <string name="discovery_application">application</string>
+    <string name="discovery_news">article</string>
+
+    <string name="add_new_property_title">Add new assets</string>
+    <string name="search_toolbar_cancel">Cancel</string>
+    <string name="search_hint">search  Token  Name or contract address</string>
+    <string name="search_ico_empty_hint1">Didn not find a match?</string>
+    <string name="search_ico_empty_hint2">Try submitting a new token at the bottom of the page</string>
+    <string name="search_upload_token">Submit a new Token to us</string>
+
+    <string name="gathering_qrcode_title">Collection code</string>
+    <string name="gathering_qrcode_share">Share</string>
+    <string name="gathering_qrcode_gathering_money">Receivables Amount</string>
+    <string name="gathering_qrcode_copy_gathering_address">Copy Wallet Address</string>
+    <string name="gathering_qrcode_copy_success">Copied</string>
+
+    <string name="contact_no_data">No contacts temporarily</string>
+    <string name="eth_transfer">ETH Transfer</string>
+
+    <string name="etc_transfer_title">ETH Send</string>
+    <string name="etc_transfer_address">Receiver&#8242;s Address</string>
+    <string name="etc_transfer_from_address">Receiver&#8242;s Address</string>
+    <string name="etc_transfer_money">Amount</string>
+    <string name="etc2fn_transfer_money">exchange eth amount</string>
+    <string name="etc2fn_transfer_num">exchange fn amount</string>
+    <string name="etc_transfer_remark">Memo</string>
+    <string name="etc_transfer_gas_cost">Mining Fee</string>
+    <string name="etc_fntransfer_gas_totalcost">Total cost</string>
+    <string name="etc_transfer_gas_price">Custom Gas Price</string>
+    <string name="etc_transfer_gas">Custom Gas</string>
+    <string name="etc_transfer_advanced_setting_help">How to set parameters?</string>
+    <string name="etc_transfer_advanced_setting">advanced options</string>
+    <string name="etc_transfer_hex_data">Hexadecimal data</string>
+    <string name="etc_transfer_next">Next</string>
+    <string name="etc_transfer_gas_slow">Slow</string>
+    <string name="etc_transfer_gas_quick">Fast</string>
+    <string name="etc_transfer_ether_unit">&#160;ether</string>
+    <string name="etc_fntransfer_ether_unit_total">Total cost：&#160;</string>
+
+    <string name="property_detail_title">ETH</string>
+    <string name="property_detail_transfer">Send</string>
+    <string name="property_detail_gathering">Receive</string>
+
+    <string name="wallet_manager_create_wallet">Create a new wallet</string>
+    <string name="wallet_manager_load_wallet">Import wallet</string>
+    <string name="wallet_manager_title">Wallet management</string>
+
+    <string name="news_center_all_read">All have read</string>
+    <string name="news_center_title">Message Center</string>
+
+    <string name="system_setting_title">System settings</string>
+    <string name="system_setting_language">multi-language</string>
+    <string name="system_setting_currency">Currency Unit</string>
+    <string name="system_setting_web3">web3 Setting</string>
+    <string name="system_setting_gesture">Gesture password</string>
+
+    <string name="language_setting_chinese">Simplified Chinese</string>
+    <string name="language_setting_English">English</string>
+    <string name="language_setting_save">save</string>
+
+    <string name="currency_unit_setting_cny">CNY</string>
+    <string name="currency_unit_setting_usd">USD</string>
+
+    <string name="web3_setting_wallet_service_url">WALLET SERVICE URL</string>
+    <string name="web3_setting_wallet_service_url_hint">https://web3.token.im</string>
+    <string name="web3_setting_reset_url">Set as the default URL</string>
+    <string name="trading_record_title">ETH Bill</string>
+    <string name="switch_wallet_title">Switch account</string>
+
+    <string name="wallet_backup_tips1">  It is strongly recommended that you immediately back up your mnemonic to keep your wallet secure</string>
+    <string name="wallet_backup_tips2">Back up your wallet: Export the "mnemonics" and copy them to a safe place. Never save them on the network, then try to transfer them in or out of the small assets.</string>
+    <string name="wallet_backup_backup_btn">Backup wallet</string>
+    <string name="wallet_backup_backup_help">View backup detailed tutorial</string>
+
+    <string name="input_pwd_dialog_tip">Please enter your password</string>
+    <string name="input_pwd_delete_tip">Please be cautious,\n this operation cannot be undone</string>
+    <string name="input_pwd_dialog_confirm">Confirm</string>
+
+    <string name="mnemonic_backup_title">Backup mnemonic</string>
+    <string name="mnemonic_backup_tips1">Copy your wallet mnemonic</string>
+    <string name="mnemonic_backup_tips2">The mnemonic is used to reply to the wallet or reset the wallet password, drop it to the paper accurately, and store it in a safe place that only you know.</string>
+
+    <string name="mnemonic_backup_alert_tips">If someone gets your mnemonic, you will get your assets directly! Please copy the mnemonic and store it in a safe place.</string>
+    <string name="mnemonic_backup_alert_btn">Got it</string>
+    <string name="mnemonic_backup_alert_title">Do not take a screenshot</string>
+
+    <string name="verify_backup_tip1">Confirm your wallet mnemonic</string>
+    <string name="verify_backup_tip2">Please click on the mnemonic in order to confirm that your backup mnemonic is correct.</string>
+    <string name="verify_backup_failed">Backup failed, please check your mnemonic</string>
+
+    <string name="load_wallet_title">Import Wallet</string>
+    <string name="load_wallet_btn">Start</string>
+    <string name="load_wallet_indicator_mnemonic">Mnemonic</string>
+    <string name="load_wallet_indicator_keystore">keystore</string>
+    <string name="load_wallet_indicator_official">Official wallet</string>
+    <string name="load_wallet_indicator_private_key">Private key</string>
+    <string name="load_wallet_indicator_observer">Observed</string>
+
+    <string name="load_wallet_by_mnemonic_hint">Please enter your mnemonic, separated by spaces, and support the m/44\'/60\'/0\'/0/0 format.</string>
+    <string name="load_wallet_by_mnemonic_input_tip">Please check your mnemonic</string>
+    <string name="load_wallet_by_mnemonic_standard">m/44\'/60\'/0\'/0/0</string>
+    <string name="load_wallet_by_mnemonic_standard_ledger">m/44\'/60\'/0\'/0</string>
+    <string name="load_wallet_by_mnemonic_standard_custom">m/44\'/60\'/1\'/0/0</string>
+    <string name="load_wallet_by_mnemonic_standard_jaxx_option">m/44\'/60\'/0\'/0/0 Jaxx,Metamask(ETH)</string>
+    <string name="load_wallet_by_mnemonic_standard_ledger_option">m/44\'/60\'/0\'/0 Ledger (ETH)</string>
+    <string name="load_wallet_by_mnemonic_standard_custom_option">m/44\'/60\'/1\'/0/0 Custom path</string>
+    <string name="load_wallet_by_mnemonic_help">What is a mnemonic?</string>
+    <string name="load_wallet_already_exist">Wallet already exists</string>
+
+    <string name="load_wallet_by_official_wallet_keystore_hint">keystore Text content</string>
+    <string name="load_wallet_by_official_wallet_keystore_tip">Copy and paste the contents of the Ethereum official wallet keystore file directly into the input box. Or scan the QR code generated by the keystore content</string>
+    <string name="load_wallet_by_official_wallet_help">What is a keystore?</string>
+    <string name="load_wallet_by_official_wallet_keystore_input_tip">Keystore file is invalid</string>
+
+    <string name="load_wallet_by_private_key_input_tip">Invalid private key</string>
+    <string name="load_wallet_by_private_key_hint">Plaintext private key</string>
+    <string name="load_wallet_by_private_key_help">What is a private key?</string>
+
+    <string name="load_wallet_by_observer_tip">Observing the wallet does not require importing a private key, only importing the wallet address for daily viewing of accounts, transactions, and acceptance notifications. The private key of large funds is recommended to use cold wallet or hardware wallet management to avoid theft and theft.</string>
+    <string name="load_wallet_by_observer_hint">Scan or enter wallet address</string>
+    <string name="load_wallet_by_observer_attention">Note: Observing the wallet to send a transaction requires a cold wallet to match the signature. You can use another idle phone, open the flight mode as a cold wallet, import the wallet private key, and match the offline signature.</string>
+
+    <string name="wallet_detail_wallet_name">Wallet name</string>
+    <string name="wallet_detail_modify_pwd">Change Password</string>
+    <string name="wallet_detail_derive_private_key">Export Private Key</string>
+    <string name="wallet_detail_derive_keystore">Export Keystore</string>
+    <string name="wallet_detail_delete_wallet">Delete Wallet</string>
+    <string name="wallet_delete_success">Wallet deleted successfully</string>
+    <string name="wallet_detail_save_success">Saved successfully</string>
+    <string name="wallet_detail_wrong_pwd">Wrong password </string>
+
+    <string name="modify_password_title">Change the password</string>
+    <string name="modify_password_old_pwd">current password</string>
+    <string name="modify_password_new_pwd">new password</string>
+    <string name="modify_password_old_pwd_again">Repeat new password</string>
+    <string name="modify_password_tip">forget password? Import a mnemonic or private key to reset the password.</string>
+    <string name="modify_password_import">Import now</string>
+    <string name="modify_password_complete">complete</string>
+    <string name="modify_password_pwd_alert1">Please enter the original password</string>
+    <string name="modify_password_alert2">Please enter a new password</string>
+    <string name="modify_password_alert3">Please enter your new password again</string>
+    <string name="modify_password_alert4">The original password is wrong</string>
+    <string name="modify_password_alert5">Password entered twice inconsistent</string>
+    <string name="modify_password_success">Successfully changed password</string>
+
+    <string name="derive_private_key_alert">Security warning: The private key is not encrypted, the export is risky. It is recommended to use the mnemonic and keystore for backup.</string>
+    <string name="derive_private_key_copy_btn">copy</string>
+    <string name="derive_private_key_already_copy_btn">Copied</string>
+
+    <string name="derive_keystore_title">Export keystore file</string>
+    <string name="derive_keystore_keystore">Keystore file</string>
+    <string name="derive_keystore_qrcode">QR code</string>
+    <string name="derive_keystore_tip_title">Save offline</string>
+    <string name="derive_keystore_tip">Please copy and paste the keystore file to a safe, offline place to save. Don not save to email, notepad, web, chat, etc., very dangerous</string>
+    <string name="derive_keystore_tip2">Do not transfer Keystore files through network tools. Once hacked, it will result in a loss of assets that cannot be late. It is recommended that offline devices be transmitted by scanning the QR code.</string>
+    <string name="derive_keystore_tip3">If you need to save online, it is recommended to save the keystore with a password storage software such as 1Password with a higher security level.</string>
+    <string name="derive_keystore_tip4">The QR code is forbidden to save, take screenshots, and take photos. It is only for users to scan directly in a secure environment to easily import the wallet.</string>
+    <string name="derive_keystore_tip5">Please use it if you are surrounded by no one and no camera. Once the QR code is acquired, it will cause irreparable asset losses.</string>
+    <string name="derive_keystore_tip_title2">Do not use network transmission</string>
+    <string name="derive_keystore_tip_title3">Password safe save</string>
+    <string name="derive_keystore_tip_title4">Direct scanning only</string>
+    <string name="derive_keystore_tip_title5">Use in a safe environment</string>
+    <string name="derive_keystore_copy">Copy Keystore</string>
+
+    <string name="deriving_wallet_tip">Exporting wallet 	…</string>
+    <string name="loading_wallet_tip">Importing wallet…</string>
+    <string name="deleting_wallet_tip">Removing wallet…</string>
+    <string name="creating_wallet_tip">Creating wallet…</string>
+    <string name="saving_wallet_tip">Saving wallet…</string>
+    <string name="fncoin">Fn</string>
+    <string name="ethcoin">ETH</string>
+    <string name="none">---,---</string>
+
+    <string name="out">TxOut</string>
+    <string name="in">TxIn</string>
+    <string name="bills">Bills</string>
+
+    <string name="about_line">Fn Wallet is the first Fn exclusive wallet launched by the Filenet community. It provides a one-stop Fn token asset management service with security,and a simple online payment service.</string>
+
+    <string name="welcome">Welcome to Filenet Wallet</string>
+    <string name="copyright">Filenet.io @ 2018 - 2020</string>
+
+    <string name="contact_web">Homepage</string>
+    <string name="contact_email">Email</string>
+    <string name="contact_telegram">Telegram</string>
+    <string name="contact_twitter">Twitter</string>
+    <string name="contact_facebook">Facebook</string>
+
+    <string name="website">filenet.io</string>
+    <string name="emailadress">contact@filenet.io</string>
+    <string name="telegramnum">t.me/filenetcommunity</string>
+    <string name="twitter">&#064;Filenetglobal</string>
+    <string name="facebook">RC Filenet</string>
+
+
+    <string name="slide1">Fn exclusive wallet</string>
+    <string name="slide11">Your Fn asset manager provides one-stop Fn token \nservice with language internationalization</string>
+    <string name="slide2">Private key self-sustaining,\nsafe and worry-free</string>
+    <string name="slide22">The private key multiple encryption is stored in the APP, and is not stored in the server in any form. The algorithm encryption technology such as PBKDF2 and SHA-512 is applied.</string>
+    <string name="slide3">Token exchange, safe and fast</string>
+    <string name="slide33">Smart contract, instant trading, easy to operate,\n efficient and transparent</string>
+
+    <string name="tv_skip">skip>></string>
+    <string name="later_backup">Backup later</string>
+
+    <string name="fn_attantion1">1. Due to real-time changes in ETH, the exchange rate is only for reference, based on the actual conversion results.</string>
+    <string name="fn_attantion2">2. Fn has a freezing period and is released on average in 5 months.</string>
+
+    <string name="exchange_alert">The public exchange transaction margin time is 2018.9.25-2018.10.15, then permanently close the exchange transaction. Do not transfer ETH before this time.</string>
+    <string name="alert">prompt</string>
+    <string name="confirm">confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="updateNote">Found a new version, is it updated?</string>
+    <string name="mustUpdate">Current version is too low, please refresh it first!</string>
+    <string name="createAlert">There is currently no wallet, please create a wallet first</string>
+    <string name="fnAlert">The main chain is not online yet, please look forward to...</string>
+    <string name="billsdetail">Transation Detail</string>
+    <string name="update">get newer version</string>
+    <string name="chang_form_add">Payment wallet address</string>
+    <string name="buy_eth_amunt">Buy ETH quantity</string>
+    <string name="change_fn_amunt">Redeem Fn quantity</string>
+    <string name="reference_exchange">Reference exchange rate</string>
+    <string name="available_balance_eth">Available Balance</string>
+    <string name="available_balance">Available Balance</string>
+    <string name="check_updates">Load More</string>
+    <string name="contact_us_title">Contact Us</string>
+    <string name="fn_transfer">Fn Transfer</string>
+    <string name="fn_send">Fn Send </string>
+        
+    <string name="qingshurushoukuandizhi">Please enter the payment address </string>
+        
+    <string name="shoukuandizhicuowu">Receipt address error </string>
+        
+    <string name="zhuanzhangbunengwei0">Transfer amount cannot be 0 </string>
+        
+    <string name="shoukuandizhibunengshiziji">The receiving wallet address cannot be your own </string>
+
+    <string name="qingshurushoukuanrenqianbaodizhi">Please enter the receiving wallet address</string>
+        
+    <string name="qianbaodizhiyouwu">The wallet address format is incorrect</string>
+        
+    <string name="qingshuruzhuanzhangjine">Please enter the transfer amount </string>
+        
+    <string name="yuebuzu">Insufficient balance </string>
+        
+    <string name="zhuanzhangjinebunengwei0">Transfer amount cannot be 0</string>
+        
+    <string name="shoukuanqianbaodizhibunengshiziji">The receiving wallet address can not be your own </string>
+        
+    <string name="qianbaodizhiweikong">The wallet address is empty</string>
+        
+    <string name="mimazhengque">The password is correct </string>
+        
+    <string name="fnduihuanzhangdan">Fn exchange bill </string>
+        
+    <string name="fakuanfang">Senders</string>
+        
+    <string name="shoukuanfang">Receiver </string>
+        
+    <string name="jiaoyihao">Transaction Number </string>
+        
+    <string name="qukuaihao">Block Height </string>
+        
+    <string name="zhuanzhangshenqingyitijiao">Block packaging confirmation</string>
+        
+    <string name="qingshaohouchakanzhangdan">Please check the bill confirmation later</string>
+        
+    <string name="zanshimeiyouzhangdan">No Data</string>
+        
+    <string name="keyong">Available</string>
+        
+    <string name="dongjie">Freeze </string>
+    <string name="daoruqianbaochenggong">Importing the wallet successfully</string>
+    <string name="chuangjianqianbaochenggong">Create successfully</string>
+    <string name="version">version</string>
+    <string name="fn_exchange_record">FN Bill</string>
+    <string name="transaction_record">Transaction Record</string>
+    <string name="mining_record">Mining Record</string>
+    <string name="wallet_privatekey_exits">The wallet private key already exists</string>
+    <string name="network_error">Network error,Please try again.</string>
+    <string name="to_setting">Settings</string>
+    <string name="allow_storage_access">Please allow storage access in Settings page.</string>
+    <string name="apply_camera_access">Please allow camera access in Setting page.</string>
+    <string name="apply_common_access">Please allow %s access in Setting page.</string>
+    <string name="string_apply">Apply</string>
+    <string name="change_wallet_name">Modify Wallet Name</string>
+    <string name="input_wallet_name">Please enter the name of the wallet</string>
+    <string name="change_password_success">Change password successfully</string>
+    <string name="setting_new_password_please_remember_new_password">The wallet already exists, is it set to a new password, \n(please remember the wallet new password)</string>
+    <string name="right_mnemonic">Mnemonic are correct</string>
+    <string name="notes">Note:</string>
+    <string name="create_wallet_notes">The password should be kept by yourself.This application does not store the password and cannot be retrieved for you. Please keep it in mind.</string>
+    <string name="create_wallet">Create Wallet</string>
+    <string name="exchange_record1">Exchange Record</string>
+    <string name="time">Time</string>
+
+    <string name="netfailed">No billing information</string>
+    <string name="revenue_record">Revenue Record</string>
+    <string name="parent_hash">Parent Hash</string>
+    <string name="block_hash">Block Hash</string>
+    <string name="transaction_number">Transaction Number</string>
+    <string name="please_back_up">Please backup your wallet mnemonic first</string>
+    <string name="key_store">Keystore content</string>
+    <string name="keystore_tips">Copy and paste the contents of the keystore file\n directly into the input box</string>
+    <string name="key_store_content_error">Keystore error or password error</string>
+    <string name="identity_password_tips">Please enter your password to confirm your identity</string>
+    <string name="property_portfolio">Portfolio</string>
+    <string name="data_from_aicoin">(Data from AICoin)</string>
+    <string name="select_import_tips">Please select the import method\naccording to your wallet</string>
+    <string name="private_key_import">Private Key import</string>
+    <string name="mnemonic_import">Mnemonic Import</string>
+    <string name="keep_in_a_safe_place_tips">Mnemonic words are used to restore wallets and reset passwords, very important! Be sure to keep it in a safe place!</string>
+    <string name="mnemonic_tips_2">Make sure your environment is secure and private. Please copy the mnemonics onto the paper accurately and store them in a safe place only you know.</string>
+    <string name="mnemnic_empty">Empty</string>
+    <string name="assets">Assets</string>
+    <string name="transaction_volume">Transaction Volume</string>
+    <string name="translation_detail">Transaction Detail</string>
+    <string name="fees">Fees</string>
+    <string name="keystore_import">Key store import</string>
+    <string name="mnemonic_error">Mnemonic errors</string>
+    <string name="import_error">Import failed</string>
+    <string name="picture_path_is_empty">The picture path is empty</string>
+    <string name="derive_keystore_tips">No screenshots, please check around to prevent intruders and cameras</string>
+    <string name="note_notes_on_transfer">Note On Transfer</string>
+    <string name="transfer_has_been_submitted">Block packaging confirmation, please check later</string>
+    <string name="failure_to_submit_transfer">Block packaging failed</string>
+    <string name="receivables">Receive</string>
+    <string name="transfer">Send</string>
+    <string name="contract">Contract</string>
+    <string name="Receive">Review</string>
+    <string name="not_open_yet">Not open yet</string>
+    <string name="manager">Manage</string>
+    <string name="expired_height">Expired Height</string>
+    <string name="proxy_hash">Proxy Hash</string>
+    <string name="super_node_address_empty">Super node address cannot be empty</string>
+    <string name="note">Note</string>
+    <string name="receive_hash">Receive Hash</string>
+    <string name="approved">Approved</string>
+    <string name="refused">Refused</string>
+    <string name="approve">Approve</string>
+    <string name="refuse">Refuse</string>
+    <string name="receive_detail">Receive Detail</string>
+    <string name="contract_apply_submit1">Contract generated success</string>
+    <string name="contract_apply_submit2">Please check the contract bill later</string>
+
+    <string name="failed_contract_submit">Block packaging failed</string>
+    <string name="contract_bill">Contract Bill</string>
+    <string name="select_lock_Time">Please select the lock time</string>
+    <string name="super_node_address">Super Node Address:</string>
+    <string name="transfer_amount">Transfer Amount:</string>
+    <string name="please_select_lock_time">Select the lock time:</string>
+    <string name="receive_notice">Notification</string>
+    <string name="Please_input_super_node_addr">Please input super node address</string>
+    <string name="six_month">Six Month</string>
+    <string name="twelve_month">Twelve Month</string>
+    <string name="contract_detail">Contract Detail</string>
+    <string name="contract_duration">Contract Duration</string>
+    <string name="handle_clicked">Blocks are being packaged. Please check the details again later.</string>
+    <string name="already_handle_contract">You have processed the contract.</string>
+    <string name="check_detail_later">Please check the details later.</string>
+    <string name="super_node_error">Super Node Error</string>
+    <string name="no_receive">No Data</string>
+    <string name="not_super_node_error">This address is not super nodes!</string>
+    <string name="mining_address">Mining Address</string>
+    <string name="not_contract_duration_error">Contract duration error</string>
+
+    <string name="vote">Vote</string>
+    <string name="vote_address">Vote To Address:</string>
+    <string name="Please_input_vote_address">Please enter your voting address</string>
+    <string name="Please_enter_the_transfer_amount">Please enter the transfer amount</string>
+    <string name="lock_period">The Lock Period</string>
+    <string name="lock_period_a_month">A month</string>
+    <string name="lock_period_add">（259200 Expiredblock）</string>
+    <string name="what_is_vote">&#160;What is voting?</string>
+    <string name="vote_address_is_empty">The voting address cannot be empty</string>
+    <string name="vote_address_is_error">Incorrect voting address entered</string>
+    <string name="vote_address_is_not_exist">The voting address does not exist</string>
+    <string name="Emoji_input_is_not_supported">Emoji input is not supported!</string>
+    <string name="your_application_for_packaging_node_qualification_has_not_been_reviewed_please_review_and_then_vote">Your application for package node qualification has not been reviewed, please review and then vote!</string>
+    <string name="you_have_voted_for_the_other_packaging_node_address">You have voted for the other packaging node address!</string>
+    <string name="voting_address_has_not_applied_for_the_qualification_of_packaging_node_please_confirm_and_vote_again">This voting address has not applied for the qualification of packing node, please confirm and vote again!</string>
+    <string name="you_have_already_voted_you_cannot_apply_for_the_packaging_node">You have already voted, you cannot apply for the packaging node!</string>
+    <string name="apply_for_packaging_node_must_mortgage_1_FN">Apply for packaging node must mortgage 1 FN!</string>
+    <string name="this_address_is_super_node_address_cannot_participate_in_the_packaging_node_vote">This address is a super node address and cannot participate in the packaged node vote!</string>
+    <string name="your_address_is_the_super_node_address_you_cannot_participate_in_the_packaging_node_vote">Your address is the super node address, you cannot participate in the packaging node vote!</string>
+    <string name="voting_for_this_month_has_ended_Please_start_voting_on_the_1st_of_next_month">Voting for this month has ended. Please start voting on the 1st of next month!</string>
+    <string name="failed_vote_submit">Block packaging failed</string>
+    <string name="apply_for_voting_submit1">Block packaging confirmation</string>
+    <string name="apply_for_voting_submit2">Please check the voting record confirmation later</string>
+    <string name="vote_records">Voting Records</string>
+    <string name="all_records">All Records</string>
+    <string name="to_review_record">To Review Record</string>
+    <string name="returned_record">Returned Record</string>
+    <string name="locked_record">Locked Record</string>
+    <string name="record_details">Record Retails</string>
+    <string name="please_review_record">Please Review Record</string>
+    <string name="batch_review">Batch Review</string>
+    <string name="no_operation">You have no actionable application</string>
+    <string name="remind_operation">All applications will be reviewed at one time. Please be careful!</string>
+    <string name="all_rejected">All Rejected</string>
+    <string name="all_agreed">All Agreed</string>
+    <string name="vote_hash">Vote Hash</string>
+    <string name="throw_out_address">Throw Out The Address</string>
+    <string name="input_address">Input Address</string>
+    <string name="vote_height">Vote Height</string>
+    <string name="refund_height">Refund Height</string>
+    <string name="agreed_process">Application has been approved</string>
+    <string name="apply_for_voting_process">You have processed your application</string>
+
+    <string name="what_vote">What is voting?</string>
+    <string name="how_vote">How do I vote?</string>
+    <string name="what_vote_explain1">Voting refers to the behavior of users participating in campaigns for packaging nodes by voting.</string>
+    <string name="what_vote_explain2">Becoming a packaging node requires a minimum of 400,000 FN votes and is in the top 105. The higher the number of votes obtained by the packing node, the greater the probability of obtaining packaging qualification.</string>
+    <string name="what_vote_explain3">All packaging nodes will get 10% of the total mining revenue as billing income, which is the block packaging income.</string>
+    <string name="what_vote_explain4">Voting requires mortgage tokens, with a term of 1 natural month, and will automatically return on the original route.</string>
+    <string name="what_vote_explain5">On the 1st of each month, the number of votes in the previous month is counted to determine which nodes have successfully campaigned as packaging nodes.</string>
+    <string name="how_vote_explain1">By entering the voting entrance in the Filenet wallet, you can vote on the packaging nodes in the campaign.</string>
+    <string name="how_vote_explain2">Voting is by a ballot system. One vote per FN.</string>
+    <string name="how_vote_explain3">For the voting address, fill in the address of the packaging node participating in the campaign.</string>
+    <string name="how_vote_explain4">Users need to be approved after voting. Then the voting can be effective.</string>
+    <string name="how_vote_explain5">Voting period is 1 month. You need to re-vote after the due day.</string>
+
+    <string name="number_of_contracts_you_have">Your Vote</string>
+    <string name="number_of_contracts_held_by_the_agent">Other Vote</string>
+    <string name="all_number_of_contracts">Total Vote</string>
+    <string name="startlang">中文</string>
+</resources>

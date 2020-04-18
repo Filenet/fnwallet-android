@@ -1,0 +1,169 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+def API_HOST = "\"http://wallet.filenet.io\""
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "io.filenet.wallet"
+        minSdkVersion 22
+        targetSdkVersion 28
+        versionCode 12
+        versionName "2.0.9"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    sourceSets {
+        main.jniLibs.srcDirs = ['libs']
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            buildConfigField("boolean", "LogSwitch", 'false')
+            buildConfigField("String", "APIHOST", "$API_HOST")
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            buildConfigField("String", "APIHOST", "$API_HOST")
+            buildConfigField("boolean", "LogSwitch", 'true')
+        }
+    }
+
+    buildToolsVersion '28.0.3'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    productFlavors {
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a' //select ABIs to build APKs for
+            universalApk true //generate an additional APK that contains all the ABIs
+        }
+    }
+    // map for the version code
+    project.ext.versionCodes = ['armeabi': 1, 'armeabi-v7a': 2, 'arm64-v8a': 3, 'mips': 5, 'mips64': 6, 'x86': 8, 'x86_64': 9]
+    android.applicationVariants.all { variant ->
+        // assign different version code for each output
+        variant.outputs.each { output ->
+            output.versionCodeOverride =
+                    project.ext.versionCodes.get(output.getFilter(com.android.build.OutputFile.ABI), 0) * 1000000 + android.defaultConfig.versionCode
+        }
+    }
+
+    packagingOptions {
+        exclude 'lib/x86_64/darwin/libscrypt.dylib'
+        exclude 'lib/x86_64/freebsd/libscrypt.so'
+        exclude 'lib/x86_64/linux/libscrypt.so'
+    }
+
+    dependencies {
+        implementation fileTree(include: ['*.jar'], dir: 'libs')
+        implementation 'com.android.support:appcompat-v7:28.0.0-alpha3'
+        implementation 'com.android.support:support-v4:28.0.0-alpha3'
+        implementation 'com.android.support:recyclerview-v7:28.0.0-alpha3'
+        implementation 'com.android.support:design:28.0.0-alpha3'
+        implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+        testImplementation 'junit:junit:4.12'
+        androidTestImplementation 'com.android.support.test:runner:1.0.2'
+        androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+        // Annotation
+        implementation 'com.jakewharton:butterknife:8.8.1'
+        annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+        // leakcanary 可以迅速定位内存泄漏
+        debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+        releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+        testImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+        // Rx
+        implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+        implementation 'io.reactivex.rxjava2:rxjava:2.1.16'
+        //Retrofit
+        implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+        // Gson converter
+        implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+        // Okhttp
+        implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+
+        // RxJava　adapter
+        implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+        // 沉浸式状态栏
+        implementation 'com.gyf.barlibrary:barlibrary:2.3.0'
+        implementation 'com.lcodecorex:tkrefreshlayout:1.0.7'
+        implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
+        implementation project(':zxingsupport')
+        //    compile 'com.google.guava:guava:24.1-jre'
+        // or, for Android:
+        implementation 'com.google.guava:guava:24.1-jre'
+        // 以太坊开发库
+        implementation 'org.web3j:core:3.3.1-android'
+        // 圆形图片
+        implementation 'de.hdodenhof:circleimageview:2.1.0'
+        // 圆点Indicator
+        implementation 'com.youth.banner:banner:1.4.10'
+        // glide 图片加载库
+        implementation('com.github.bumptech.glide:glide:4.6.1') {
+            exclude group: "com.android.support"
+        }
+        annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
+        // greenDao
+        implementation 'org.greenrobot:greendao:3.2.2'
+        // EventBus
+        implementation 'org.greenrobot:eventbus:3.0.0'
+        // FlexboxLayoutManager
+        implementation 'com.google.android:flexbox:0.3.2'
+        // ViewPagerIndicator
+        implementation 'com.shizhefei:ViewPagerIndicator:1.1.6'
+        // bitcoinj
+        implementation 'org.bitcoinj:bitcoinj-core:0.14.3'
+        implementation 'com.android.support:multidex:1.0.3'
+
+        implementation 'com.github.tbruyelle:rxpermissions:0.10.2@aar'
+        //superTextView
+        implementation 'com.github.chenBingX:SuperTextView:v3.0.0'
+        //  implementation 'com.tencent.bugly:crashreport:latest.release'
+        implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
+        implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'
+        implementation files('libs/tomcat-util.jar')
+        implementation 'com.github.yuweiguocn:GreenDaoUpgradeHelper:v1.4.0'
+        implementation 'com.google.protobuf:protobuf-java:3.4.0'
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+        /*友盟统计*/
+        implementation 'com.umeng.umsdk:analytics:8.0.0'
+        implementation 'com.umeng.umsdk:common:2.0.0'
+        implementation 'com.squareup.okhttp3:logging-interceptor:3.5.0'
+        implementation 'com.tencent.bugly:crashreport_upgrade:1.3.6'
+
+    }
+
+    greendao {
+        schemaVersion 3
+    }
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}
