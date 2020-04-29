@@ -257,7 +257,6 @@ public class LoadWalletByMnemonicFragment extends BaseFragment implements LoadWa
                 }
                 break;
             case R.id.lly_standard_menu:
-                LogUtils.i("LoadWallet", "lly_standard_menu");
                 popupWindow.showAsDropDown(etStandard, 0, UUi.dip2px(10));
                 break;
             case R.id.cb_agreement:

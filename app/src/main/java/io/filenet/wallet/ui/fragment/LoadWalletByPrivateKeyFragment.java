@@ -187,7 +187,6 @@ public class LoadWalletByPrivateKeyFragment extends BaseFragment implements Load
     @Override
     public void loadSuccess(ETHWallet wallet) {
         ToastUtils.showToast(mContext, R.string.daoruqianbaochenggong);
-        LogUtils.e("导入钱包成功");
         EventBus.getDefault().post(wallet);
         new Thread() {
             @Override

@@ -9,12 +9,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import io.filenet.wallet.R;
-import io.filenet.wallet.base.BaseFragment;
-
 import com.shizhefei.view.indicator.IndicatorViewPager;
 
 import java.util.List;
+
+import io.filenet.wallet.R;
+import io.filenet.wallet.base.BaseFragment;
 
 import static android.support.v4.view.PagerAdapter.POSITION_NONE;
 

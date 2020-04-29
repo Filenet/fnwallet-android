@@ -1,7 +1,6 @@
 package io.filenet.wallet.ui.fragment;
 
 import android.app.AlertDialog;
-import android.app.assist.AssistStructure;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -142,7 +141,6 @@ public class LoadWalletByKeyStoreFragment extends BaseFragment implements LoadWa
     @Override
     public void loadSuccess(ETHWallet wallet) {
         ToastUtils.showToast(mContext, R.string.daoruqianbaochenggong);
-        LogUtils.e("导入钱包成功");
         new Thread() {
             @Override
             public void run() {
