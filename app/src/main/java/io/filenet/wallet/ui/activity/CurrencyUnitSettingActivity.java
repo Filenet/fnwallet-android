@@ -10,13 +10,12 @@ import com.gyf.barlibrary.ImmersionBar;
 
 import org.greenrobot.eventbus.EventBus;
 
+import butterknife.BindView;
+import butterknife.OnClick;
 import io.filenet.wallet.R;
 import io.filenet.wallet.base.BaseActivity;
 import io.filenet.wallet.event.UpdatePropertyEvent;
 import io.filenet.wallet.utils.SharedPreferencesUtil;
-
-import butterknife.BindView;
-import butterknife.OnClick;
 
 
 public class CurrencyUnitSettingActivity extends BaseActivity {

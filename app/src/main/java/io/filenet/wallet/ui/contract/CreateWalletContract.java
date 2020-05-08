@@ -4,7 +4,6 @@ import io.filenet.wallet.base.BaseContract;
 import io.filenet.wallet.domain.ETHWallet;
 
 
-
 public interface CreateWalletContract extends BaseContract {
 
     interface View extends BaseContract.BaseView {

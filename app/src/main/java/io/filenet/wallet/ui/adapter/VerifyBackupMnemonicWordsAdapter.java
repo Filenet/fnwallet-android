@@ -6,10 +6,10 @@ import android.widget.LinearLayout;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 
+import java.util.List;
+
 import io.filenet.wallet.R;
 import io.filenet.wallet.domain.VerifyMnemonicWordTag;
-
-import java.util.List;
 
 
 public class VerifyBackupMnemonicWordsAdapter extends BaseQuickAdapter<VerifyMnemonicWordTag, BaseViewHolder> {

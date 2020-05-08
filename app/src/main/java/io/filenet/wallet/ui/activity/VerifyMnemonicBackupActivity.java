@@ -10,15 +10,6 @@ import android.widget.TextView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 
-import io.filenet.wallet.R;
-import io.filenet.wallet.base.BaseActivity;
-import io.filenet.wallet.domain.ETHWallet;
-import io.filenet.wallet.domain.VerifyMnemonicWordTag;
-import io.filenet.wallet.ui.adapter.VerifyBackupMnemonicWordsAdapter;
-import io.filenet.wallet.utils.LogUtils;
-import io.filenet.wallet.utils.ToastUtils;
-import io.filenet.wallet.utils.WalletDaoUtils;
-
 import org.greenrobot.eventbus.EventBus;
 
 import java.util.ArrayList;
@@ -27,6 +18,14 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.OnClick;
+import io.filenet.wallet.R;
+import io.filenet.wallet.base.BaseActivity;
+import io.filenet.wallet.domain.ETHWallet;
+import io.filenet.wallet.domain.VerifyMnemonicWordTag;
+import io.filenet.wallet.ui.adapter.VerifyBackupMnemonicWordsAdapter;
+import io.filenet.wallet.utils.LogUtils;
+import io.filenet.wallet.utils.ToastUtils;
+import io.filenet.wallet.utils.WalletDaoUtils;
 
 
 public class VerifyMnemonicBackupActivity extends BaseActivity {
@@ -128,7 +127,6 @@ public class VerifyMnemonicBackupActivity extends BaseActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_confirm:
-                LogUtils.d("VerifyMnemonicBackUp", "Click!!");
                 List<String> data = mnemonicAdapter.getData();
                 int size = data.size();
                 if (size == 12) {
@@ -141,7 +139,6 @@ public class VerifyMnemonicBackupActivity extends BaseActivity {
                     }
                     String verifyMnemonic = stringBuilder.toString();
                     String trim = verifyMnemonic.trim();
-                    LogUtils.d("VerifyMnemonicBackUp", "Click!!");
                     if (TextUtils.equals(trim, walletMnemonic.trim())) {
                         ETHWallet mWallet = WalletDaoUtils.setIsBackup(walletId);
                         ToastUtils.showToast(mContext, R.string.right_mnemonic);

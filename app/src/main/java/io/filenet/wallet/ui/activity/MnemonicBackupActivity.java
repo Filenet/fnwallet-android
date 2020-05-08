@@ -18,13 +18,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import butterknife.BindView;
+import butterknife.OnClick;
 import io.filenet.wallet.R;
 import io.filenet.wallet.base.BaseActivity;
 import io.filenet.wallet.utils.AppManager;
 import io.filenet.wallet.view.MnemonicBackupAlertDialog;
-
-import butterknife.BindView;
-import butterknife.OnClick;
 import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;

@@ -1,12 +1,7 @@
 package io.filenet.wallet.ui.activity;
 
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.content.res.Resources;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.LocaleList;
-import android.util.DisplayMetrics;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.CompoundButton;
@@ -23,12 +18,12 @@ import butterknife.OnClick;
 import io.filenet.wallet.R;
 import io.filenet.wallet.base.BaseActivity;
 import io.filenet.wallet.utils.LanguageUtil;
-import io.filenet.wallet.utils.LogUtils;
 import io.filenet.wallet.utils.SPLanguage;
 
 
 public class LanguageSettingActivity extends BaseActivity {
     private static final String IS_CHANGED = "isChanged";
+    private static final String FROMTHELANGUAGESETTINGACTIVITY = "from the LanguageSettingActivity";
     @BindView(R.id.tv_title)
     TextView tvTitle;
     @BindView(R.id.iv_btn)
@@ -87,7 +82,7 @@ public class LanguageSettingActivity extends BaseActivity {
                 if (isChanged) {
                     Intent intent = new Intent(mContext, MainActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                    intent.putExtra("from the LanguageSettingActivity", "yes");
+                    intent.putExtra(FROMTHELANGUAGESETTINGACTIVITY, "yes");
                     startActivity(intent);
                 } else {
                     onBackPressed();
@@ -139,7 +134,7 @@ public class LanguageSettingActivity extends BaseActivity {
                 LanguageUtil.setLocal(getApplicationContext());
                 Intent intent = new Intent(this, MainActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.putExtra("from the LanguageSettingActivity", "yes");
+                intent.putExtra(FROMTHELANGUAGESETTINGACTIVITY, "yes");
                 startActivity(intent);
                 break;
         }

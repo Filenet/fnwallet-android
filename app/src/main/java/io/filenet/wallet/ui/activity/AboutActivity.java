@@ -20,6 +20,7 @@ import com.gyf.barlibrary.ImmersionBar;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
+
 import java.io.IOException;
 
 import butterknife.BindView;
@@ -28,7 +29,6 @@ import io.filenet.wallet.BuildConfig;
 import io.filenet.wallet.R;
 import io.filenet.wallet.base.BaseActivity;
 import io.filenet.wallet.entity.UpdateBean;
-import io.filenet.wallet.utils.LogUtils;
 import io.filenet.wallet.view.AlertPopupWindow;
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -152,7 +152,6 @@ public class AboutActivity extends BaseActivity {
         if (updatedata != null && verName != null && updatedata.getData().getVersioncode() != null) {
             String newVersion = updatedata.getData().getVersioncode();
             String minVersion = updatedata.getData().getMinversion();
-            LogUtils.e("test" + verName + " newVersin " + newVersion + " minVersion " + minVersion);
             if (minVersion != null && verName.compareToIgnoreCase(minVersion) < 0) {
                 handler.post(new Runnable() {
                     @Override
